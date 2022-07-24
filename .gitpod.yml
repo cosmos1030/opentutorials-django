@@ -5,16 +5,14 @@ tasks:
       pip install --upgrade pip wheel setuptools
       pip install Django
       python manage.py migrate
-      
-      
-  - command: |
+    command: |
       source venv/bin/activate
       python manage.py runserver
   
 ports:
   - port: 8000
     visibility: private
-    # onOpen: open-preview
+    onOpen: open-preview
 
 vscode:
   extensions:

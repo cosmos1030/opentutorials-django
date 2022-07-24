@@ -1,23 +1,11 @@
-# A Python Django template on Gitpod
 
-This is a [Python Django](https://www.djangoproject.com) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+### gitpod로 열기
+- [바로가기](https://gitpod.io/#github.com/cosmos1030/django-practice)
 
-## Next Steps
+### 배포
+- [python anywhere](https://www.pythonanywhere.com/)
 
-Click the button below to start a new development environment:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-python-django)
-
-## Get Started With Your Own Project
-
-### A new project
-
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
-
-### An existing project
-
-To get started with Python Django on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
-
-
-## ref
-[생활코딩](https://opentutorials.org/course/4886/31118)
+### ref
+- [쟝고 튜토리얼](https://docs.djangoproject.com/ko/4.0/intro/tutorial01/)
+- [쟝고걸스 튜토리얼](https://tutorial.djangogirls.org/ko/django_models/)
+- [self 이해하기](https://wikidocs.net/1742)

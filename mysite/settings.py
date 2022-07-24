@@ -25,12 +25,14 @@ SECRET_KEY = 'django-insecure-!cd0v*xol@f6k=q5k1i=**i(15bpm3dka8ipdd45mk+p7it!th
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dyk6208.pythonanywhere.com', 'localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'mysite',
+    'blog',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -123,3 +125,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_ORIGINS = ['https://8000-cosmos1030-templatepyth-rvga5jaahjw.ws-us54.gitpod.io', 'https://*', 'https://dyk6208.pythonanywhere.com','https://8000-cosmos1030-djangopracti-7bcg22vcl7m.ws-us54.gitpod.io', 'https://8000-cosmos1030-djangopracti-6bvugxsacce.ws-us54.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ALLOWED_ORIGINS.copy()
